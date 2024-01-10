@@ -1,0 +1,11 @@
+
+.good-list {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 3px;
+}
+
+.good-list > div {
+	border: solid 1px black;
+	border-radius: 5px;
+}
