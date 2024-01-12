@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+
+<jsp:include page="/include1/top.jsp"/>
+
+<a href="./index.jsp">ÀÎµ¦½º</a> /
+<a href="./menu.jsp">¸Þ´º</a> /
+
+<h3>¸Þ´º</h3>
+
+<ul>
+	<li>¾ßÃ¤±è¹ä</li>
+	<li>ÂüÄ¡±è¹ä</li>
+	<li>¿¬¾î±è¹ä</li>
+	<li>È«¾î±è¹ä</li>
+	<li>°í¼ö±è¹ä</li>
+</ul>
+
+<jsp:include page="/include1/bottom.jsp"/>
